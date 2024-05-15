@@ -17,6 +17,8 @@ img {
    height: auto;
 }
 
+/* PROPERTY VALUES FOR INITIAL CARD */
+
 #canvas {
   display: flex;
   justify-content: center;
@@ -30,6 +32,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
   min-width: 70%;
   max-width: 327px;
   height: 360px;
@@ -50,6 +53,14 @@ img {
   font-size: 24px;
   font-weight: 700;
   color: #FFF;
+}
+
+.infinity {
+  display: none;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 5px;
 }
 
 .para {
@@ -95,6 +106,36 @@ button {
   font-weight: 700;
   letter-spacing: 1.867px;
   background: #FC7614;
+}
+
+/* PROPERTY VALUES FOR RESULTS CARD */
+
+.payment-img {
+  margin-top: 34px;
+}
+
+.rating-result-container {
+  width: 70%;
+  min-width: 168px;
+  height: 32px;
+  border: 1px solid white;
+  margin-top: 24px;
+}
+
+.thanks {
+  width: 90%;
+  min-width: 279px;
+  height: 37px;
+  border: 1px solid white;
+  margin-top: 29px;
+}
+
+.para-conf {
+  width: 90%;
+  min-width: 279px;
+  height: 66px;
+  border: 1px solid white;
+  margin-top: 10px;
 }
 
 @media ( min-width: 600px ) {
