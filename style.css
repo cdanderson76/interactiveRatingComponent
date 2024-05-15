@@ -76,6 +76,7 @@ img {
 
 .rating-container {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   min-width: 90%;
   width: 281px;
@@ -160,9 +161,14 @@ button {
   text-align: center;
 }
 
+.active {
+  background-color: #7C8798;
+  color: white;
+}
+
 /* ANIMATIONS AND EFFECTS */
 
-.selector[type="button"]:hover {
+.rating-container li:hover {
   background-color: #FC7614;
   transition-duration: 1.5s;
   color: white;

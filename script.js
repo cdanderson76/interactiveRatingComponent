@@ -2,6 +2,16 @@
 const subBtn = document.getElementById('sub-btn');
 const canvas = document.getElementById('canvas');
 const infinity = document.getElementById('infinity');
+const ratingBtns = document.querySelectorAll('.selector');
+
+// HIGHLIGHTING THE BUTTONS ON CLICK
+
+ratingBtns.forEach(btn => {
+    btn.addEventListener('click', function() {
+    ratingBtns.forEach(btn => btn.classList.remove('active'));
+    btn.classList.add('active');
+})});
+
 const paymentImg = 'images/payment.png';
 
 subBtn.addEventListener('click', function() {
