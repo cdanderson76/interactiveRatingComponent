@@ -95,7 +95,6 @@ img {
   background: #262E38;
   border: none;
   color: #969FAD;
-  /* transition-property: transform; */
   transition-duration: 1.5s;
   transition-timing-function: ease;
 }
