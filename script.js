@@ -12,9 +12,15 @@ ratingBtns.forEach(btn => {
     btn.classList.add('active');
 })});
 
+// THANK YOU BOILERPLATE
+
 const paymentImg = 'images/payment.png';
 
-subBtn.addEventListener('click', function() {
+subBtn.addEventListener('click', function(e) {
+
+    const userRating = document.querySelector('.selector.active').innerHTML;
+
+    // console.log(document.querySelector('.selector.active').innerHTML)
 
     infinity.style.display = 'block';
 
@@ -27,7 +33,7 @@ subBtn.addEventListener('click', function() {
                 <img src=${paymentImg} class="payment-img" />
 
                 <div class="rating-result-container">
-                    You selected 4 out of 5
+                    You selected ${userRating} out of 5
                 </div>
 
                 <div class="thanks">
@@ -42,5 +48,4 @@ subBtn.addEventListener('click', function() {
             </main>`
     }, 2500);
         
-    
 })
