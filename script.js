@@ -1,6 +1,5 @@
 
 const subBtn = document.getElementById('sub-btn');
-const canvas = document.getElementById('canvas');
 const infinity = document.getElementById('infinity');
 const ratingBtns = document.querySelectorAll('.selector');
 
@@ -19,6 +18,7 @@ const paymentImg = 'images/payment.png';
 subBtn.addEventListener('click', function(e) {
 
     const userRating = document.querySelector('.selector.active').innerHTML;
+    const canvas = document.getElementById('canvas');
 
     // console.log(document.querySelector('.selector.active').innerHTML)
 
@@ -30,7 +30,7 @@ subBtn.addEventListener('click', function(e) {
 
             `<main class="card" >
 
-                <img src=${paymentImg} class="payment-img" />
+                <img src=${paymentImg} class="payment-img" alt="online payment image"/>
 
                 <div class="rating-result-container">
                     You selected ${userRating} out of 5
