@@ -17,45 +17,52 @@ img {
    height: auto;
 }
 
-/* PROPERTY VALUES FOR INITIAL CARD */
-
-#canvas {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100vh;
-  background: #131518;
-}
-
 /* FLEX CONTAINERS */
 
 #canvas, .card, .rating-container, .selector {
   display: flex;
 }
 
+#canvas, .card {
+  align-items: center;
+}
+
+/* COMMON FONT SIZES */
+
+.para, button, .rating-result-container, .para-conf {
+  font-size: 0.875em;
+}
+
+/* PROPERTY VALUES FOR INITIAL CARD */
+
+#canvas {
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background: #131518;
+}
+
 .card {
   flex-direction: column;
-  align-items: center;
   position: relative;
   min-width: 68%;
-  max-width: 327px;
-  min-height: 364px;
-  padding: 24px 24px 32px 24px;
-  border-radius: 15px;
+  max-width: 20.438em;
+  min-height: 22.75em;
+  padding: 1.5em 1.5em 2em 1.5em;
+  border-radius: 0.938em;
   background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
 }
 
 .star {
-  margin: 0 auto 22px 0;
+  margin: 0 auto 1.375em 0;
 }
 
 .question {
   min-width: 90%;
   width: 279px;
-  height: 37px;
-  margin-bottom: 10px;
-  font-size: 24px;
+  height: 2.313em;
+  margin-bottom: -0.4em;
+  font-size: 1.5rem;
   font-weight: 700;
   color: #FFF;
 }
@@ -63,19 +70,18 @@ img {
 .infinity {
   display: none;
   position: absolute;
-  width: 70px;
-  height: 70px;
-  top: 5px;
+  width: 4.375em;
+  height: 4.375em;
+  top: 0.313em;
 }
 
 .para {
   min-width: 90%;
-  width: 279px;
-  height: 66px;
-  margin-bottom: 24px;
-  font-size: 14px;
+  width: 19.7em;
+  height: 4.125em;
+  margin-bottom: 1.5em;
   font-weight: 400;
-  line-height: 22px;
+  line-height: 1.375em;
   color: #969FAD;
 }
 
@@ -83,17 +89,17 @@ img {
   flex-direction: row;
   justify-content: space-between;
   min-width: 90%;
-  width: 281px;
-  height: 42px;
-  margin-bottom: 24px;
+  width: 17.563em;
+  height: 2.625em;
+  margin-bottom: 2em;
 }
 
 .selector {
   justify-content: center;
   align-items: center;
   width: auto;
-  width: 42px;
-  height: 42px;
+  width: 2.625em;
+  height: 2.625em;
   border-radius: 50%;
   background: #262E38;
   border: none;
@@ -103,14 +109,13 @@ img {
 }
 
 button {
-  min-width: 90%;
-  width: 279px;
-  height: 45px;
-  border-radius: 22.5px;
+  min-width: 94%;
+  width: 17.438em;
+  height: 2.813em;
+  border-radius: 1.406em;
   border: none;
-  font-size: 14px;
   font-weight: 700;
-  letter-spacing: 1.867px;
+  letter-spacing: 0.117em;
   background: #FC7614;
   transition-duration: 0.3s;
 }
@@ -118,27 +123,26 @@ button {
 /* PROPERTY VALUES FOR RESULTS CARD */
 
 .payment-img {
-  margin-top: 12px;
-  width: 144px;
-  height: 96;
+  margin-top: 0.75em;
+  width: 9em;
+  height: 6em;
 }
 
 .rating-result-container {
   width: 60%;
-  min-width: 168px;
-  height: 32px;
+  min-width: 10.5em;
+  height: 2em;
   border: none;
-  margin-top: 24px;
-  border-radius: 22.5px;
-  padding: 7px 12px 5px 12px;
+  margin-top: 2.5em;
+  border-radius: 1.406em;
+  padding: 0.438em 0.75em 0.313em 0.75em;
   font-family: 'Overpass';
-  font-size: 14px;
   font-weight: 400;
-  line-height: 22px;
+  line-height: 1.375em;
   color: #FC7614;
   background: #262E38;
   text-align: center;
-  perspective: 500px;
+  perspective: 31.25em;
 }
 
 .thanks {
@@ -155,12 +159,11 @@ button {
 .para-conf {
   width: 90%;
   min-width: 279px;
-  height: 66px;
-  margin-top: 10px;
+  height: 5em;
+  margin-top: 0.625em;
   color: #969FAD;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 22px;
+  line-height: 1.65em;
   text-align: center;
 }
 
