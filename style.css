@@ -182,12 +182,16 @@ button {
 
 /* ANIMATIONS AND EFFECTS */
 
+.rating-container li:hover,
+#sub-btn:hover {
+  cursor: pointer;
+}
+
 .rating-container li:hover {
   background-color: #FC7614;
   transition-duration: 1.5s;
   color: white;
-  transform: rotateY(2turn);
-  cursor: pointer;
+  /* transform: rotateY(2turn); */
 }
 
 #sub-btn:hover {
@@ -195,7 +199,6 @@ button {
   color: #FC7614;
   border-radius: 0;
   transition-duration: 0.3s;
-  cursor: pointer;
 }
 
 @media ( min-width: 600px ) {
@@ -245,33 +248,48 @@ button {
     font-size: 15px;
   }
 
-  /* MEDIA QUERY FOR RESULTS CARD */
+  /* RESULTS CARD */
 
   .rating-result-container {
-    min-width: 193px;
-    height: 32px;
-    margin-top: 30px;
+    min-width: 12.063em;
+    height: 2em;
   }
 
   .payment-img {
-    width: 144px;
-    height: 96px;
-    margin-top: 20px;
+    width: 9em;
+    height: 6em;
+    margin-top: 1.25em;
   }
 
   .thanks {
-    margin-top: 38px;
+    margin-top: 1.5em;
   }
 
   .para-conf {
-    width: 340px;
-    height: 72px;
-    font-size: 15px;
-    margin-top: 10px;
+    width: 22.5em;
+    height: 4.5em;
+    font-size: 0.938rem;
+    margin-top: 0.625em;
   }
 
   .active {
     color: white;
     background-color: #7C8798;
+  }
+
+  .rating-container li:hover {
+    background-color: #FC7614;
+    transition-duration: 1.5s;
+    color: white;
+    transform: rotateY(2turn);
+    cursor: pointer;
+  }
+
+  #sub-btn:hover {
+    background-color: white;
+    color: #FC7614;
+    border-radius: 0;
+    transition-duration: 0.3s;
+    cursor: pointer;
   }
 }
