@@ -36,6 +36,7 @@ img {
 /* PROPERTY VALUES FOR INITIAL CARD */
 
 #canvas {
+  flex-direction: column;
   justify-content: center;
   width: 100%;
   height: 100vh;
@@ -59,7 +60,7 @@ img {
 
 .question {
   min-width: 90%;
-  width: 279px;
+  width: 11.6em;
   height: 2.313em;
   margin-bottom: -0.4em;
   font-size: 1.5rem;
@@ -147,24 +148,26 @@ button {
 
 .thanks {
   width: 90%;
-  min-width: 279px;
-  height: 37px;
-  margin-top: 29px;
+  min-width: 11.7em;
+  height: 1.5em;
+  margin-top: 1.2em;
   font-family: 'Overpass';
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #FFF;
   text-align: center;
+  border: 1px solid white;
 }
 
 .para-conf {
   width: 90%;
-  min-width: 279px;
+  min-width: 14em;
   height: 5em;
   margin-top: 0.625em;
   color: #969FAD;
   font-weight: 400;
   line-height: 1.65em;
   text-align: center;
+  border: 1px solid white;
 }
 
 .active {
@@ -199,6 +202,59 @@ button {
   color: #FC7614;
   border-radius: 0;
   transition-duration: 0.3s;
+}
+
+footer a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  animation: smoothFill 5s ease-out 0s infinite both;
+  width: 80%;
+}
+
+.footer-container {
+  margin-top: 3.125em;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 80%;
+}
+
+@keyframes smoothFill {
+  00%,0%{
+    color: #ff0000;
+  }
+  8%{
+    color: #ff7f00;
+  }
+  16%{
+    color: #ffff00;
+  }
+  25%{
+    color: #7fff00;
+  }
+  33%{
+    color: #00ff00;
+  }
+  41%{
+    color: #00ff7f;
+  }
+  50%{
+    color: #00ffff;
+  }
+  58%{
+    color: #007fff;
+  }
+  66%{
+    color: #0000ff;
+  }
+  75%{
+    color: #7f00ff;
+  }
+  83%{
+    color: #ff00ff;
+  }
+  91%{
+    color: #ff007f;
+  }
 }
 
 @media ( min-width: 600px ) {
