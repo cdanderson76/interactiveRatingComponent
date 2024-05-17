@@ -2,7 +2,7 @@
 
 This is an HTML & CSS-only challenge in which I practiced my HTML and CSS fundamentals, (HTML structure and the box model).
 
-
+![Interactive Rating Component](https://github.com/cdanderson76/interactiveRatingComponent/assets/138369806/91748374-e441-40fb-ba17-9be95d08ad20)
 
 <h2>What are you most proud of, and what would you do differently next time?</h2>
 
