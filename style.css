@@ -112,6 +112,7 @@ button {
   font-weight: 700;
   letter-spacing: 1.867px;
   background: #FC7614;
+  transition-duration: 0.3s;
 }
 
 /* PROPERTY VALUES FOR RESULTS CARD */
@@ -187,9 +188,11 @@ button {
 }
 
 #sub-btn:hover {
-  background-color: #f5914a;
+  background-color: white;
+  color: #FC7614;
   border-radius: 0;
-  transition-duration: 2s;
+  transition-duration: 0.3s;
+  cursor: pointer;
 }
 
 @media ( min-width: 600px ) {
@@ -242,7 +245,7 @@ button {
   /* MEDIA QUERY FOR RESULTS CARD */
 
   .rating-result-container {
-    width: 193px;
+    min-width: 193px;
     height: 32px;
     margin-top: 30px;
   }
@@ -266,5 +269,6 @@ button {
 
   .active {
     color: white;
+    background-color: #7C8798;
   }
 }
