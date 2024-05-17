@@ -45,7 +45,12 @@ subBtn.addEventListener('click', function(e) {
                     you ever need more support, don't hesitate to get in touch!
                 </div>
 
-            </main>`
+            </main>
+            
+            <footer class="footer-container">
+                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+                Coded by <a href="https://github.com/cdanderson76" target="_blank">Clifford Anderson</a>.
+            </footer>`
     }, 2500);
         
 })

@@ -111,7 +111,7 @@ img {
 
 button {
   min-width: 94%;
-  width: 17.438em;
+  width: 17.5em;
   height: 2.813em;
   border-radius: 1.406em;
   border: none;
@@ -175,7 +175,7 @@ button {
 
 .rating-container li:hover {
   background-color: #FC7614;
-  transition-duration: 1.5s;
+  transition-duration: 0.3s;
   color: white;
   transform: rotateY(2turn);
   cursor: pointer;
@@ -271,27 +271,27 @@ footer a {
     max-width: 12.438em;
     height: 2.688em;
     margin-right: auto;
-    margin-bottom: 7px;
-    font-size: 28px;
+    margin-bottom: 0.438em;
+    font-size: 1.75em;
   }
 
   .para {
-    min-width: 340px;
-    height: 72px;
-    margin-bottom: 24px;
-    font-size: 15px;
-    line-height: 24px;
+    min-width: 22em;
+    height: 4.5em;
+    margin-bottom: 4em;
+    font-size: 0.938em;
+    line-height: 1.5em;
   }
 
   .rating-container {
     min-width: 341px;
-    height: 51px;
-    margin-bottom: 32px;
+    height: 3.188em;
+    margin-bottom: 2em;
   }
 
   .selector {
-    min-width: 51px;
-    height: 51px;
+    min-width: 3.188em;
+    height: 3.188em;
     color: #969FAD
   }
 
