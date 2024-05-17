@@ -112,7 +112,7 @@ img {
 button {
   min-width: 94%;
   width: 17.5em;
-  height: 2.813em;
+  height: 3em;
   border-radius: 1.406em;
   border: none;
   font-weight: 700;
@@ -278,7 +278,7 @@ footer a {
   .para {
     min-width: 22em;
     height: 4.5em;
-    margin-bottom: 4em;
+    margin-bottom: 1.7em;
     font-size: 0.938em;
     line-height: 1.5em;
   }
